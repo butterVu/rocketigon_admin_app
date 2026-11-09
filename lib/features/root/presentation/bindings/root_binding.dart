@@ -1,6 +1,9 @@
 import 'package:get/get.dart';
 
 import '../../../account/presentation/bindings/account_binding.dart';
+import '../../../car_rental/presentation/bindings/car_rental_binding.dart';
+import '../../../finance/presentation/bindings/finance_binding.dart';
+import '../../../food/presentation/bindings/food_binding.dart';
 import '../controllers/root_controller.dart';
 
 /// Registers the root screen and the controllers of all its tabs, since the
@@ -10,5 +13,8 @@ class RootBinding extends Bindings {
   void dependencies() {
     Get.lazyPut(RootController.new);
     AccountBinding().dependencies();
+    FoodBinding().dependencies();
+    CarRentalBinding().dependencies();
+    FinanceBinding().dependencies();
   }
 }

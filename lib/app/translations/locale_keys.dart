@@ -45,6 +45,15 @@ abstract final class LocaleKeys {
   /// Label of the account tab.
   static const rootTabAccount = 'root_tab_account';
 
+  /// Label of the food management tab.
+  static const rootTabFood = 'root_tab_food';
+
+  /// Label of the car rental management tab.
+  static const rootTabCarRental = 'root_tab_car_rental';
+
+  /// Label of the finance management tab.
+  static const rootTabFinance = 'root_tab_finance';
+
   /// Label of buttons closing a dialog or sheet.
   static const commonClose = 'common_close';
 

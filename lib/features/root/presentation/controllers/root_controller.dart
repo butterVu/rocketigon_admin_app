@@ -8,7 +8,24 @@ import '../../../../app/translations/locale_keys.dart';
 /// Add, remove or reorder values to change the bottom navigation.
 enum RootTab {
   /// Profile and settings.
-  account(LocaleKeys.rootTabAccount, Icons.person_outline, Icons.person);
+  account(LocaleKeys.rootTabAccount, Icons.person_outline, Icons.person),
+
+  /// Food management.
+  food(LocaleKeys.rootTabFood, Icons.restaurant_outlined, Icons.restaurant),
+
+  /// Car rental management.
+  carRental(
+    LocaleKeys.rootTabCarRental,
+    Icons.directions_car_outlined,
+    Icons.directions_car,
+  ),
+
+  /// Finance management.
+  finance(
+    LocaleKeys.rootTabFinance,
+    Icons.account_balance_wallet_outlined,
+    Icons.account_balance_wallet,
+  );
 
   const RootTab(this.labelKey, this.icon, this.selectedIcon);
 
