@@ -34,6 +34,9 @@ class AppTranslations extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
     'vi_VN': {
+      LocaleKeys.rootTabFood: 'Đồ ăn',
+      LocaleKeys.rootTabCarRental: 'Thuê xe',
+      LocaleKeys.rootTabFinance: 'Tài chính',
       LocaleKeys.authHeadline: 'Rocketigo Admin',
       LocaleKeys.authSubtitle: 'Đăng nhập để quản lý vận hành',
       LocaleKeys.authLoginCodeHint: 'Nhập mã đăng nhập (6 số)',
@@ -86,6 +89,9 @@ class AppTranslations extends Translations {
       LocaleKeys.loginCodeInvalid: 'Số điện thoại hoặc mã mở khoá không đúng',
     },
     'en_US': {
+      LocaleKeys.rootTabFood: 'Food',
+      LocaleKeys.rootTabCarRental: 'Car rental',
+      LocaleKeys.rootTabFinance: 'Finance',
       LocaleKeys.authHeadline: 'Rocketigo Admin',
       LocaleKeys.authSubtitle: 'Log in to manage operations',
       LocaleKeys.authLoginCodeHint: 'Enter login code (6 digits)',
